@@ -1,6 +1,6 @@
 <template>
   <div ref="vantaElement" class="h-100vh">
-    <div class="w-100% h-100% overflow-auto flex">
+    <div class="w-100% h-100% overflow-auto flex-col">
       <div
         class="z-2 backdrop-blur-2xl rounded-2xl p-8 bg-gray/10 shadow-lg backdrop-invert-10"
       >
