@@ -1,0 +1,1 @@
+body{background-color:#000;color:#fff;font-family:Roboto,sans-serif;margin:0}.snap-container{height:100dvh;overflow-y:scroll;scroll-snap-type:y mandatory;width:100%}.snap-element{height:100dvh;scroll-snap-align:center}
