@@ -1,3 +1,13 @@
+<script setup>
+useHead(() => ({
+  title: "Your Page Title",
+  meta: [
+    { name: "apple-mobile-web-app-capable", content: "yes" },
+    { name: "mobile-web-app-capable", content: "yes" },
+  ],
+}))
+</script>
+
 <template>
   <div class="snap-container">
     <div class="snap-element"><Hero /></div>
