@@ -11,9 +11,9 @@ useHead(() => ({
 <template>
   <div class="snap-container">
     <div class="snap-element"><Hero /></div>
-    <div class="snap-element"><Hero2 /></div>
     <div class="snap-element"><Hero /></div>
-    <div class="snap-element"><Hero2 /></div>
+    <div class="snap-element"><Hero /></div>
+    <div class="snap-element"><Hero /></div>
   </div>
 </template>
 

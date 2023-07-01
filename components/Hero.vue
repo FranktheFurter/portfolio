@@ -1,41 +1,12 @@
 <template>
-  <div ref="vantaElement" class="h-100vh">
-    <div class="w-100% h-100% overflow-auto flex">
-      <div
-        class="z-2 backdrop-blur-2xl rounded-2xl p-8 bg-gray/10 shadow-lg backdrop-invert-10"
-      >
-        <h1 class="text-8xl my-0 text-white/80">Hello World</h1>
-      </div>
-      <div
-        class="z-2 backdrop-blur-2xl rounded-2xl p-8 bg-gray/10 shadow-lg backdrop-invert-10"
-      >
-        <h1 class="text-8xl my-0 text-white/80">Hello World</h1>
-      </div>
-      <div
-        class="z-2 backdrop-blur-2xl rounded-2xl p-8 bg-gray/10 shadow-lg backdrop-invert-10"
-      >
-        <h1 class="text-8xl my-0 text-white/80">Hello World</h1>
-      </div>
-      <div
-        class="z-2 backdrop-blur-2xl rounded-2xl p-8 bg-gray/10 shadow-lg backdrop-invert-10"
-      >
-        <h1 class="text-8xl my-0 text-white/80">Hello World</h1>
-      </div>
-      <div
-        class="z-2 backdrop-blur-2xl rounded-2xl p-8 bg-gray/10 shadow-lg backdrop-invert-10"
-      >
-        <h1 class="text-8xl my-0 text-white/80">Hello World</h1>
-      </div>
-      <div
-        class="z-2 backdrop-blur-2xl rounded-2xl p-8 bg-gray/10 shadow-lg backdrop-invert-10"
-      >
-        <h1 class="text-8xl my-0 text-white/80">Hello World</h1>
-      </div>
-      <div
-        class="z-2 backdrop-blur-2xl rounded-2xl p-8 bg-gray/10 shadow-lg backdrop-invert-10"
-      >
-        <h1 class="text-8xl my-0 text-white/80">Hello World</h1>
-      </div>
+  <div
+    ref="vantaElement"
+    class="h-100vh flex items-center justify-center text-center"
+  >
+    <div
+      class="z-2 backdrop-blur-2xl rounded-2xl p-8 bg-gray/10 shadow-lg backdrop-invert-10"
+    >
+      <h1 class="text-8xl my-0 text-white/80">Hello World</h1>
     </div>
   </div>
 </template>
