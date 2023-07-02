@@ -3,7 +3,7 @@
 <template>
   <AnimBgContainer>
     <Hero />
-    <div class="bg-black/66">
+    <div class="bg-black/66 backdrop-blur-2xl">
       <SectionContainer>
         <AboutMe />
       </SectionContainer>
@@ -35,5 +35,8 @@ body {
 }
 .h-100dvh {
   height: 100dvh;
+}
+.grad {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.66));
 }
 </style>

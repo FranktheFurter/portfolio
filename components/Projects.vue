@@ -8,7 +8,7 @@ import projects from "@/data/projects"
     <div
       v-for="project in projects"
       :key="project.id"
-      class="glass w-100% rounded-8"
+      class="bg-white/20 w-100% rounded-8"
     >
       <NuxtLink :to="`projects/${project.id}`">
         <div class="h-300px p-8">{{ project.title }}</div>
