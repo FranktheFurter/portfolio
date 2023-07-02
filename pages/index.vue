@@ -4,7 +4,7 @@
   <AnimBgContainer>
     <Hero />
   </AnimBgContainer>
-  <AnimBgContainer> </AnimBgContainer>
+  <AboutMe />
 </template>
 
 <style>
@@ -16,6 +16,9 @@ body {
 }
 .glass {
   @apply backdrop-blur-2xl  bg-gray/10 shadow-lg backdrop-invert-10;
+}
+.glass-2 {
+  @apply backdrop-blur-2xl  bg-black/30 shadow-lg backdrop-invert-10;
 }
 .min-h-100dvh {
   min-height: 100dvh;
