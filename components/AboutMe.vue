@@ -3,9 +3,9 @@
 <template>
   <SectionHeading>About Me</SectionHeading>
   <SectionContainer>
-    <div class="w-100% flex flex-col md:flex-row">
+    <div class="w-100% flex flex-col-reverse md:flex-row md:gap-16">
       <div class="md:w-1/3 text-base">
-        <p class="opacity-80">
+        <p class="opacity-80 mt-0">
           Greetings, my name is Marc Frankfurter, and I am a highly motivated
           front-end developer and designer with a passion for technology. My
           fascination with computers and their inner workings began at a young
@@ -29,7 +29,11 @@
         </p>
       </div>
       <div class="md:w-2/3">
-        <!-- <img src="/images/me.png" class="max-h-50% max-w-50%" alt="" /> -->
+        <div class="flex md:flex-col gap-8">
+          <div class="md:h-50 bg-gray/50"></div>
+          <div class="md:h-50 bg-gray/50"></div>
+          <div class="md:h-50 bg-gray/50"></div>
+        </div>
       </div>
     </div>
   </SectionContainer>

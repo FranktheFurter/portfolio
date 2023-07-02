@@ -66,7 +66,7 @@ export const useVantaEffect = () => {
       midtoneColor: randomColor(),
       lowlightColor: randomColor(),
       baseColor: randomColor(),
-      blurFactor: randomValue(0.4, 1),
+      blurFactor: randomValue(0, 1),
       speed: randomValue(0.5, 3),
       zoom: randomValue(0.1, 1),
     }
