@@ -5,15 +5,9 @@
     <Hero />
 
     <div class="bg-black/66 backdrop-blur-2xl">
-      <SectionContainer>
-        <AboutMe />
-      </SectionContainer>
-      <SectionContainer>
-        <Projects />
-      </SectionContainer>
-      <SectionContainer>
-        <Contact />
-      </SectionContainer>
+      <AboutMe />
+      <Projects />
+      <Contact />
     </div>
   </AnimBgContainer>
 </template>
