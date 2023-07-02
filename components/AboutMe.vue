@@ -1,7 +1,7 @@
 <script lang="ts" setup></script>
 
 <template>
-  <h2 class="opacity-90">About Me</h2>
+  <SectionHeading>About Me</SectionHeading>
   <div class="w-100% flex flex-col md:flex-row">
     <div class="md:w-1/3 text-base">
       <p class="opacity-80">

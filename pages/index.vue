@@ -3,6 +3,7 @@
 <template>
   <AnimBgContainer>
     <Hero />
+
     <div class="bg-black/66 backdrop-blur-2xl">
       <SectionContainer>
         <AboutMe />

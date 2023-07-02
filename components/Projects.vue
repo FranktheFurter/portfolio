@@ -3,7 +3,7 @@ import projects from "@/data/projects"
 </script>
 
 <template>
-  <h2>Projects</h2>
+  <SectionHeading>Projects</SectionHeading>
   <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
     <div
       v-for="project in projects"
