@@ -15,7 +15,7 @@ body {
   color: white;
 }
 .glass {
-  @apply backdrop-blur-2xl rounded-2xl p-8 bg-gray/10 shadow-lg backdrop-invert-10;
+  @apply backdrop-blur-2xl  bg-gray/10 shadow-lg backdrop-invert-10;
 }
 .min-h-100dvh {
   min-height: 100dvh;
