@@ -7,7 +7,11 @@
         <div
           class="aspect-1/1 h-48 md:h-64 rounded-full glass flex items-center justify-center"
         >
-          <img src="/logo/fr-logo.png" class="max-h-50% max-w-50%" alt="" />
+          <img
+            src="/logo/fr-logo.png"
+            class="max-h-66% max-w-66% grayscale brightness-0 invert-100 opacity-66"
+            alt=""
+          />
         </div>
       </div>
       <div class="p-4 md:p-16 text-center">
@@ -16,8 +20,8 @@
         </h1>
         <h2 class="opacity-70 text-xl">A Fullstack Developer & Designer</h2>
         <div class="text-xl flex justify-center gap-8 opacity-65">
-          <div>Projects</div>
           <div>About Me</div>
+          <div>Projects</div>
           <div>Contact</div>
         </div>
       </div>

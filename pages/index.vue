@@ -3,8 +3,18 @@
 <template>
   <AnimBgContainer>
     <Hero />
+    <div class="bg-black/66">
+      <SectionContainer>
+        <AboutMe />
+      </SectionContainer>
+      <SectionContainer>
+        <Projects />
+      </SectionContainer>
+      <SectionContainer>
+        <Contact />
+      </SectionContainer>
+    </div>
   </AnimBgContainer>
-  <AboutMe />
 </template>
 
 <style>
