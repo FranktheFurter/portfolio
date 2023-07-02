@@ -1,20 +1,10 @@
-<script setup>
-useHead(() => ({
-  title: "Your Page Title",
-  meta: [
-    { name: "apple-mobile-web-app-capable", content: "yes" },
-    { name: "mobile-web-app-capable", content: "yes" },
-  ],
-}))
-</script>
+<script setup></script>
 
 <template>
-  <div class="snap-container">
-    <div class="snap-element"><Hero /></div>
-    <div class="snap-element"><Hero /></div>
-    <div class="snap-element"><Hero /></div>
-    <div class="snap-element"><Hero /></div>
-  </div>
+  <AnimBgContainer>
+    <Hero />
+  </AnimBgContainer>
+  <AnimBgContainer> </AnimBgContainer>
 </template>
 
 <style>
@@ -24,16 +14,13 @@ body {
   background-color: black;
   color: white;
 }
-
-.snap-container {
-  height: 100dvh; /* Full viewport height. */
-  width: 100%;
-  scroll-snap-type: y mandatory; /* Snaps on the y-axis. */
-  overflow-y: scroll; /* Enables vertical scroll. */
+.glass {
+  @apply backdrop-blur-2xl rounded-2xl p-8 bg-gray/10 shadow-lg backdrop-invert-10;
 }
-
-.snap-element {
-  height: 100dvh; /* Each element is a full viewport height. */
-  scroll-snap-align: center; /* Snaps to the center of the element. */
+.min-h-100dvh {
+  min-height: 100dvh;
+}
+.h-100dvh {
+  height: 100dvh;
 }
 </style>
