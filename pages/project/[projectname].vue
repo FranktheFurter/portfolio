@@ -37,7 +37,7 @@ const project = computed(() => {
               </p>
             </div>
             <div
-              class="w-100% md:w-2/3 flex md:flex-col md:gap-8 overflow-x-scroll w-100%"
+              class="w-100% md:w-2/3 flex md:flex-col gap-8 overflow-x-scroll w-100%"
             >
               <div
                 v-for="(img, index) in project.images"
@@ -46,7 +46,7 @@ const project = computed(() => {
               >
                 <img
                   :src="$config.app.baseURL + img"
-                  class="rounded-xl w-80%"
+                  class="rounded-xl w-100%"
                   alt=""
                 />
               </div>
