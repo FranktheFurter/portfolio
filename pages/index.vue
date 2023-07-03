@@ -3,12 +3,13 @@
 <template>
   <AnimBgContainer>
     <Hero />
-    <div class="bg-black/66 backdrop-blur-2xl">
+  </AnimBgContainer>
+  <AnimBgContainer>
+    <div class="bg-black/80 backdrop-blur-3xl">
       <AboutMe />
       <Projects />
-      <Contact />
-    </div>
-  </AnimBgContainer>
+      <Contact /></div
+  ></AnimBgContainer>
 </template>
 
 <style>
