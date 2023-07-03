@@ -1,4 +1,10 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+const { activePreset } = useVantaEffect()
+const currHex = computed(() => {
+  const colorInt = activePreset.value.baseColor
+  return colorInt.toString(16).padStart(6, "0")
+})
+</script>
 
 <template>
   <SectionHeading>About Me</SectionHeading>
@@ -30,7 +36,8 @@
           intricate process of combining individual elements in both programming
           and designing.
         </p>
-        <hr class="my-8 opacity-33" />
+
+        <!-- <hr class="my-8 opacity-33" />
         <div class="flex gap-8 justify-center">
           <a href=""
             ><button
@@ -47,7 +54,12 @@
               class="w-12 h-12 i-mdi-soundcloud text-white/33 hover:text-white/66 cool-hover"
             ></button
           ></a>
-        </div>
+        </div> -->
+        <img
+          :src="`https://ghchart.rshah.org/${currHex}/FranktheFurter`"
+          alt="2016rshah's Blue Github Chart"
+          class="w-100%"
+        />
       </div>
       <div class="md:w-1/2 mt-8 md:mt-0">
         <Timeline />
