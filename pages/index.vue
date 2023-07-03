@@ -5,7 +5,7 @@
     <Hero />
   </AnimBgContainer>
   <AnimBgContainer>
-    <div class="bg-black/80 backdrop-blur-3xl">
+    <div class="bg-black/70 backdrop-blur-3xl">
       <AboutMe />
       <Projects />
       <Contact /></div
