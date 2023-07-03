@@ -31,8 +31,8 @@ export default defineConfig({
     presetWebFonts({
       provider: "google",
       fonts: {
-        sans: "Roboto",
-        mono: ["Fira Code", "Fira Mono:400,700"],
+        sans: ["Roboto", "Rubik:400,700"],
+        mono: ["Fira Code", "Fira Mono:400,700", "Roboto Mono"],
       },
     }),
   ],

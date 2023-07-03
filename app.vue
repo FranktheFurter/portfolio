@@ -36,7 +36,17 @@ watch(highlightColorHex, (newVal) => {
 <style>
 body {
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Mono", monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
 }
 
 .v-text-base {
