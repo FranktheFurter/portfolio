@@ -42,7 +42,11 @@ const project = computed(() => {
                 :key="index"
                 class="w-full"
               >
-                <img :src="img" class="w-full object-cover rounded-xl" alt="" />
+                <img
+                  :src="$config.app.baseURL + img"
+                  class="w-full object-cover rounded-xl"
+                  alt=""
+                />
               </div>
             </div>
           </div>
