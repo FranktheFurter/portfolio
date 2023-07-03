@@ -20,7 +20,7 @@ const { activePreset, randomizePreset, switchPreset } = useVantaEffect()
         <div class="flex gap-8 justify-center"><ColorSelector /></div>
         <div class="flex justify-center">
           <button
-            class="i-mdi-dice-3 text-white/66 hover:text-white/90 h-12 w-12"
+            class="i-mdi-dice-3 text-white/66 hover:text-white/90 h-12 w-12 cool-hover"
             @click="randomizePreset()"
           ></button>
         </div>

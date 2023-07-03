@@ -15,7 +15,7 @@ const {
   <div
     v-for="(preset, index) in presets"
     :key="index"
-    class="w-8 h-8 glass rounded-full"
+    class="w-8 h-8 glass rounded-full cool-hover"
     @click="switchPreset(index)"
   ></div>
   <!-- <div class="w-8 h-8" @click="randomizePreset()">R</div> -->

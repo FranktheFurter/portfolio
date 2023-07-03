@@ -48,6 +48,9 @@ h6 {
   font-family: "Rubik", sans-serif;
   font-weight: 700;
 }
+.cool-hover {
+  @apply hover:scale-110%;
+}
 
 .v-text-base {
   color: var(--base-color);

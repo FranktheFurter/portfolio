@@ -30,6 +30,24 @@
           intricate process of combining individual elements in both programming
           and designing.
         </p>
+        <hr class="my-8 opacity-33" />
+        <div class="flex gap-8 justify-center">
+          <a href=""
+            ><button
+              class="w-12 h-12 i-mdi-github text-white/33 hover:text-white/66 cool-hover"
+            ></button
+          ></a>
+          <a href=""
+            ><button
+              class="w-12 h-12 i-mdi-linkedin text-white/33 hover:text-white/66 cool-hover"
+            ></button
+          ></a>
+          <a href=""
+            ><button
+              class="w-12 h-12 i-mdi-soundcloud text-white/33 hover:text-white/66 cool-hover"
+            ></button
+          ></a>
+        </div>
       </div>
       <div class="md:w-1/2 mt-8 md:mt-0">
         <Timeline />
