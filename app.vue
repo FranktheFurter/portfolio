@@ -36,9 +36,19 @@ watch(highlightColorHex, (newVal) => {
 <style>
 body {
   margin: 0;
-  font-family: "Roboto Mono", monospace;
+
+  font-family: "Rubik", sans-serif;
   background-color: black;
   color: white;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700;
 }
 
 .glass {
@@ -47,6 +57,9 @@ body {
 .glass-2 {
   @apply backdrop-blur-2xl  bg-black/30 shadow-lg backdrop-invert-10;
 }
+.glass-3 {
+  @apply backdrop-blur-2xl  bg-gray/10 backdrop-invert-10;
+}
 .min-h-100dvh {
   min-height: 100dvh;
 }
@@ -54,15 +67,6 @@ body {
   height: 100dvh;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Rubik", sans-serif;
-  font-weight: 700;
-}
 .cool-hover {
   @apply hover:scale-110%;
 }

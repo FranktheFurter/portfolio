@@ -9,7 +9,7 @@ const props = defineProps({
 <template>
   <div class="text-xs b-left pl-4">
     <div class="">
-      <h3 class="mt-0 text-2xl text-opacity-90 v-text-base my-0">
+      <h3 class="mt-0 text-2xl text-opacity-80 v-text-base my-0">
         {{ title }}
       </h3>
       <div class="py-4">
@@ -17,7 +17,7 @@ const props = defineProps({
         <div class="opacity-66">{{ time }}</div>
       </div>
     </div>
-    <p class="text-base opacity-90 my-0">
+    <p class="text-base opacity-80 my-0">
       <slot />
     </p>
   </div>

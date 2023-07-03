@@ -16,15 +16,15 @@
             />
           </div>
         </div>
-        <p class="opacity-90 mt-0">
+        <p class="opacity-80 mt-0">
           Hello, I'm Marc Frankfurter, a passionate front-end developer and
           designer who's been captivated by technology since childhood.
         </p>
-        <p>
+        <p class="opacity-80">
           I graduated in computer engineering from Ulm, specializing in
           usability engineering and UI development.
         </p>
-        <p>
+        <p class="opacity-80">
           Initially working as a UX designer, I eventually shifted towards a
           more technical role due to my love for development. I thrive on the
           intricate process of combining individual elements in both programming
