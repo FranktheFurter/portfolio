@@ -3,32 +3,35 @@
 <template>
   <SectionHeading>About Me</SectionHeading>
   <SectionContainer>
-    <div class="w-100% flex flex-col-reverse md:flex-row md:gap-16">
-      <div class="md:w-1/3 text-base">
-        <p class="opacity-80 mt-0">
-          Greetings, my name is Marc Frankfurter, and I am a highly motivated
-          front-end developer and designer with a passion for technology. My
-          fascination with computers and their inner workings began at a young
-          age, and by the age of 12, I was already delving into programming,
-          creating new characters and abilities for a favorite computer game.
+    <div class="w-100% flex flex-col md:flex-row md:gap-16">
+      <div class="md:w-1/2 text-base">
+        <div class="float-left mr-4 mb-4">
+          <div
+            class="w-42 h-42 rounded-full overflow-hidden flex items-center justify-center v-bg-base"
+          >
+            <img
+              class="transform scale-58 translate-y-[100px] translate-x-[-25px] grayscale-20"
+              src="/images/me.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <p class="opacity-90 mt-0">
+          Hello, I'm Marc Frankfurter, a passionate front-end developer and
+          designer who's been captivated by technology since childhood.
         </p>
-        <p class="opacity-80">
-          After completing my academic journey with a degree in computer
-          engineering from Ulm, I decided to specialize in usability engineering
-          and UI development. My first post-graduation role was as a UX
-          designer, where I was able to refine my design skills and gain
-          valuable experience. However, my love for the technical aspects of
-          development eventually led me to transition into a development-focused
-          role.
+        <p>
+          I graduated in computer engineering from Ulm, specializing in
+          usability engineering and UI development.
         </p>
-        <p class="opacity-80">
-          I am an avid tinkerer and enjoy engaging in conversations with my team
-          on a wide range of technical topics. Watching a system come together
-          and witnessing the seamless integration of individual parts is one of
-          the most beautiful aspects of both programming and designing.
+        <p>
+          Initially working as a UX designer, I eventually shifted towards a
+          more technical role due to my love for development. I thrive on the
+          intricate process of combining individual elements in both programming
+          and designing.
         </p>
       </div>
-      <div class="md:w-2/3">
+      <div class="md:w-1/2">
         <Timeline />
       </div>
     </div>
