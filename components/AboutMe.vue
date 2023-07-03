@@ -29,11 +29,7 @@
         </p>
       </div>
       <div class="md:w-2/3">
-        <div class="flex md:flex-col gap-8">
-          <div class="md:h-50 bg-gray/50"></div>
-          <div class="md:h-50 bg-gray/50"></div>
-          <div class="md:h-50 bg-gray/50"></div>
-        </div>
+        <Timeline />
       </div>
     </div>
   </SectionContainer>
