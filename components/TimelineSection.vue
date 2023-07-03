@@ -7,7 +7,7 @@ const props = defineProps({
 </script>
 
 <template>
-  <div class="text-xs">
+  <div class="text-xs b-left pl-4">
     <div class="">
       <h3 class="my-0 text-2xl text-opacity-90 v-text-base">{{ title }}</h3>
       <div>
@@ -21,4 +21,8 @@ const props = defineProps({
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.b-left {
+  border-left: 1px solid var(--base-color);
+}
+</style>

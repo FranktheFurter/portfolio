@@ -31,7 +31,7 @@
           and designing.
         </p>
       </div>
-      <div class="md:w-1/2">
+      <div class="md:w-1/2 mt-8 md:mt-0">
         <Timeline />
       </div>
     </div>
