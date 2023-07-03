@@ -4,12 +4,13 @@
   <AnimBgContainer>
     <Hero />
   </AnimBgContainer>
-  <AnimBgContainer>
-    <div class="bg-black/70 backdrop-blur-3xl">
+  <div class="v-bg-mid">
+    <div class="bg-black/80">
       <AboutMe />
       <Projects />
-      <Contact /></div
-  ></AnimBgContainer>
+      <Contact />
+    </div>
+  </div>
 </template>
 
 <style>

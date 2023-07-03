@@ -5,7 +5,7 @@
   <SectionContainer>
     <div class="w-100% flex flex-col md:flex-row md:gap-16">
       <div class="md:w-1/2 text-base">
-        <div class="float-left mr-4 mb-4">
+        <div class="float-left mr-8 mb-4">
           <div
             class="w-42 h-42 rounded-full overflow-hidden flex items-center justify-center v-bg-base"
           >

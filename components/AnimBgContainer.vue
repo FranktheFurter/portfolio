@@ -1,5 +1,5 @@
 <template>
-  <div ref="vantaElement" class="min-h-100vh">
+  <div ref="vantaElement" class="">
     <slot />
   </div>
 </template>
