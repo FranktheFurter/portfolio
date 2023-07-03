@@ -18,7 +18,7 @@ const {
     class="w-8 h-8 glass rounded-full"
     @click="switchPreset(index)"
   ></div>
-  <div class="w-8 h-8" @click="randomizePreset()">R</div>
+  <!-- <div class="w-8 h-8" @click="randomizePreset()">R</div> -->
 </template>
 
 <style scoped></style>

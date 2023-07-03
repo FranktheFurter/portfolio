@@ -26,7 +26,16 @@ export default defineConfig({
   presets: [
     presetUno(),
     presetAttributify(),
-    presetIcons(),
+    presetIcons({
+      collections: {
+        // add your custom icon set here
+        mdi: async () => {
+          // load the MDI dataset
+          const mdi = await import("@iconify/json/json/mdi.json")
+          return mdi.default
+        },
+      },
+    }),
     presetTypography(),
     presetWebFonts({
       provider: "google",
