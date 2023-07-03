@@ -4,7 +4,7 @@
   <AnimBgContainer>
     <Hero />
   </AnimBgContainer>
-  <div class="v-bg-mid">
+  <div class="v-bg-high">
     <div class="bg-black/80">
       <AboutMe />
       <Projects />

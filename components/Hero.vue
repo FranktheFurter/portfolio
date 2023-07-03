@@ -3,7 +3,7 @@ const { activePreset, randomizePreset, switchPreset } = useVantaEffect()
 </script>
 
 <template>
-  <div class="flex justify-center items-center">
+  <div class="min-h-100vh flex justify-center items-center">
     <div class="flex items-center md:gap-8 rounded-2xl flex-col md:flex-row">
       <div class="p-2 md:p-8 flex flex-col justify-center items-center gap-4">
         <div
