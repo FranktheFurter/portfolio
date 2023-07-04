@@ -5,7 +5,7 @@
     <Hero />
   </AnimBgContainer>
   <div class="v-bg-high">
-    <div class="bg-black/80">
+    <div class="bg-black/80 sections">
       <AboutMe />
       <Projects />
       <Contact />
@@ -13,4 +13,7 @@
   </div>
 </template>
 
-<style></style>
+<style>
+.sections > * {
+}
+</style>

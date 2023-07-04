@@ -10,7 +10,7 @@ import { projects } from "@/data/projects"
         <NuxtLink :to="`/project/${project.url}`"
           ><div class="w-100% glass">
             <img
-              :src="$config.app.baseURL + project.projectCover"
+              :src="$config.app.baseURL + project.images[0]"
               class="w-100%"
               alt=""
             />

@@ -1,7 +1,7 @@
 <script lang="ts" setup></script>
 
 <template>
-  <div class="mx-auto max-w-6xl p-2">
+  <div class="mx-auto max-w-6xl p-4">
     <slot />
   </div>
 </template>

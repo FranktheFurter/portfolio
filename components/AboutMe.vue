@@ -55,11 +55,11 @@ const currHex = computed(() => {
             ></button
           ></a>
         </div> -->
-        <img
+        <!-- <img
           :src="`https://ghchart.rshah.org/${currHex}/FranktheFurter`"
           alt="2016rshah's Blue Github Chart"
           class="w-100%"
-        />
+        /> -->
       </div>
       <div class="md:w-1/2 mt-8 md:mt-0">
         <Timeline />
