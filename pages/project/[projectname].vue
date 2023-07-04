@@ -15,8 +15,8 @@ const project = computed(() => {
       <div v-if="project">
         <SectionContainer>
           <SectionHeading>{{ project.projectTitle }}</SectionHeading>
-          <div class="flex flex-col-reverse md:flex-row gap-8 p-4">
-            <div class="md:w-1/2">
+          <div class="flex flex-col-reverse md:flex-col-reverse gap-8 p-4">
+            <div class="">
               <h3 class="mt-0 text-2xl text-opacity-90 v-text-base my-0">
                 <span class="text-white/33">// </span>Tools & Technologies
               </h3>
@@ -68,12 +68,12 @@ const project = computed(() => {
               </div>
             </div>
             <div
-              class="w-100% md:w-1/2 flex md:flex-col gap-8 overflow-x-scroll w-100%"
+              class="w-100% flex md:grid md:grid-cols-4 xl:grid-cols-4 gap-8 md:gap-4 overflow-x-scroll w-100%"
             >
               <div
                 v-for="(img, index) in project.images"
                 :key="index"
-                class="w-4/5 flex-none"
+                class="w-4/5 md:w-100% flex-none"
               >
                 <img
                   :src="$config.app.baseURL + img"
