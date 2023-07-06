@@ -1,3 +1,5 @@
+import { Html } from ".nuxt/components"
+
 enum Tech {
   css = "css",
   flutter = "flutter",
@@ -16,6 +18,10 @@ enum Tech {
   rest = "rest api",
   cross = " cross platform",
   dart = "dart",
+  nuxt = "nuxt",
+  vue = "vue",
+  tailwind = "tailwind",
+  typescript = "typescript",
   netbackend = ".net backend",
 }
 enum ProjectType {
@@ -80,7 +86,6 @@ export const projects: Project[] = [
       "Given the large number of possible operations that an ERP system offers, it is very important to integrate these carefully into a UI so that users do not feel overwhelmed by the sheer abundance and the system can be operated intuitively.",
     ],
   },
-
   {
     highlight: true,
     projectTitle: "Flutter Game of Life",
@@ -216,5 +221,78 @@ export const projects: Project[] = [
       "The project was a success, as the old system was replaced with a new one that was more stable, efficient and user-friendly.",
       "The decision to use Flutter and MobX proved to be the right one, and the end result was a system that met all of the client's requirements and expectations.",
     ],
+  },
+  {
+    highlight: true,
+    projectTitle: "Composable Spareparts Webshop",
+    url: "spareparts-webshop",
+    images: [
+      "/projects/spareparts-webshop/1.png",
+      "/projects/spareparts-webshop/2.png",
+      "/projects/spareparts-webshop/3.png",
+      "/projects/spareparts-webshop/4.png",
+      "/projects/spareparts-webshop/5.png",
+      "/projects/spareparts-webshop/6.png",
+    ],
+    projectType: ProjectType.professional,
+    projectCategory: ProjectCategory.webApp,
+    year: "2023",
+    tech: [
+      Tech.ssr,
+      Tech.vue,
+      Tech.nuxt,
+      Tech.tailwind,
+      Tech.html,
+      Tech.css,
+      Tech.netbackend,
+      Tech.typescript,
+    ],
+
+    objectiveDetails: [
+      "The objective of this project was to replace an unstable warehouse management system with a new and efficient system that met all client requirements, using Flutter as the perfect cross-platform framework and MobX for state management.",
+    ],
+    projectDetails: ["TODO"],
+  },
+  {
+    highlight: true,
+    projectTitle: "Monteur Portal with Flutter",
+    url: "monteur-portal",
+    images: [
+      "/projects/monteur-portal/1.png",
+      "/projects/monteur-portal/2.png",
+      "/projects/monteur-portal/3.png",
+      "/projects/monteur-portal/4.png",
+    ],
+    projectType: ProjectType.professional,
+    projectCategory: ProjectCategory.webApp,
+    year: "2022",
+    tech: [Tech.flutter, Tech.netbackend, Tech.cross, Tech.rest],
+
+    objectiveDetails: ["TODO"],
+    projectDetails: ["TODO"],
+  },
+  {
+    highlight: true,
+    projectTitle: "Spotify playlist analyzer with nuxt",
+    url: "spotify-playlist-analyzer",
+    images: [
+      "/projects/spotify-playlist-analyzer/1.png",
+      "/projects/spotify-playlist-analyzer/2.png",
+    ],
+    projectType: ProjectType.private,
+    projectCategory: ProjectCategory.webApp,
+    year: "2022",
+    tech: [
+      Tech.nuxt,
+      Tech.vue,
+      Tech.rest,
+      Tech.html,
+      Tech.css,
+      Tech.tailwind,
+      Tech.typescript,
+    ],
+
+    objectiveDetails: ["TODO"],
+    projectDetails: ["TODO"],
   },
 ]

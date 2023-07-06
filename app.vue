@@ -34,6 +34,10 @@ watch(highlightColorHex, (newVal) => {
 </template>
 
 <style>
+/* * {
+  @apply bg-gray/5;
+} */
+
 body {
   margin: 0;
 
