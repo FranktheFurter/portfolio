@@ -59,7 +59,7 @@ const prevImage = () => {
         ←
       </div>
       <img
-        :src="props.imgUrls[selectedIndex]"
+        :src="$config.app.baseUR + props.imgUrls[selectedIndex]"
         alt="Full Screen Image"
         class="max-w-4/5 max-h-4/5"
       />
