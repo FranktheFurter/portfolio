@@ -39,7 +39,11 @@ const prevImage = () => {
       :class="props.childCss"
       @click="openImage(index)"
     >
-      <img :src="imgUrl" alt="Gallery Image" class="h-32 w-32 object-cover" />
+      <img
+        :src="$config.app.baseURL + imgUrl"
+        alt="Gallery Image"
+        class="h-32 w-32 object-cover"
+      />
     </div>
 
     <div
@@ -59,7 +63,7 @@ const prevImage = () => {
         ←
       </div>
       <img
-        :src="$config.app.baseUR + props.imgUrls[selectedIndex]"
+        :src="$config.app.baseURL + props.imgUrls[selectedIndex]"
         alt="Full Screen Image"
         class="max-w-4/5 max-h-4/5"
       />
