@@ -67,20 +67,8 @@ const project = computed(() => {
                 </NuxtLink>
               </div>
             </div>
-            <div
-              class="w-100% flex md:grid md:grid-cols-4 xl:grid-cols-4 gap-8 md:gap-4 overflow-x-scroll w-100%"
-            >
-              <div
-                v-for="(img, index) in project.images"
-                :key="index"
-                class="w-4/5 md:w-100% flex-none"
-              >
-                <img
-                  :src="$config.app.baseURL + img"
-                  class="rounded-xl w-100%"
-                  alt=""
-                />
-              </div>
+            <div>
+              <ImageGallery :img-urls="project.images" child-css="" />
             </div>
           </div>
         </SectionContainer>
