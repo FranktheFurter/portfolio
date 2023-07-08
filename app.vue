@@ -80,7 +80,8 @@ h6 {
 }
 
 .cool-hover {
-  @apply hover:scale-110%;
+  transition: all 0.1s ease;
+  @apply hover:scale-110% shadow-2xl;
 }
 
 .v-text-base {
@@ -113,5 +114,21 @@ h6 {
 
 .v-bg-high {
   background-color: var(--highlight-color);
+}
+
+.v-border-base {
+  border-color: var(--base-color);
+}
+
+.v-border-low {
+  border-color: var(--lowlight-color);
+}
+
+.v-border-mid {
+  border-color: var(--midtone-color);
+}
+
+.v-border-high {
+  border-color: var(--highlight-color);
 }
 </style>

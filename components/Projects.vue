@@ -10,7 +10,7 @@ import { projects } from "@/data/projects"
         <NuxtLink
           v-for="(project, index) in projects"
           :key="index"
-          class="glass"
+          class="glass cool-hover"
           :to="`/project/${project.url}`"
         >
           <div class="w-100% aspect-ratio-1/1">

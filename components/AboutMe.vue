@@ -13,10 +13,10 @@ const currHex = computed(() => {
       <div class="md:w-1/2 text-base">
         <div class="float-left mr-8 mb-4">
           <div
-            class="w-42 h-42 rounded-full overflow-hidden flex items-center justify-center v-bg-base"
+            class="w-42 h-42 rounded-full overflow-hidden flex items-center justify-center v-border-base border-solid"
           >
             <img
-              class="transform scale-58 translate-y-[100px] translate-x-[-25px] grayscale-20"
+              class="transform scale-58 translate-y-[100px] translate-x-[-25px] grayscale-10"
               src="/images/me.png"
               alt=""
             />

@@ -37,13 +37,19 @@ const { activePreset, randomizePreset, switchPreset } = useVantaEffect()
           <div class="h-2 w-16 v-bg-high" />
         </div>
         <div class="text-xl flex justify-center gap-8 opacity-80 pt-8">
-          <a class="bg-white/10 shadow p-1 md:p-4 rounded-xl" href="#about-me"
+          <a
+            class="bg-white/10 cool-hover shadow p-1 md:p-4 rounded-xl"
+            href="#about-me"
             >About Me</a
           >
-          <a class="bg-white/10 shadow p-1 md:p-4 rounded-xl" href="#projects"
+          <a
+            class="bg-white/10 cool-hover shadow p-1 md:p-4 rounded-xl"
+            href="#projects"
             >Projects</a
           >
-          <a class="bg-white/10 shadow p-1 md:p-4 rounded-xl" href="#contact"
+          <a
+            class="bg-white/10 cool-hover shadow p-1 md:p-4 rounded-xl"
+            href="#contact"
             >Contact</a
           >
         </div>
