@@ -1,7 +1,7 @@
 <script lang="ts" setup></script>
 
 <template>
-  <SectionHeading>Contact</SectionHeading>
+  <SectionHeading id="contact">Contact</SectionHeading>
 </template>
 
 <style scoped></style>

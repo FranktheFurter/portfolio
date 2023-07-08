@@ -31,12 +31,20 @@ watch(highlightColorHex, (newVal) => {
 
 <template>
   <NuxtPage />
+  <Footer />
 </template>
 
 <style>
 /* * {
   @apply bg-gray/5;
 } */
+html {
+  scroll-behavior: smooth;
+}
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
 
 body {
   margin: 0;

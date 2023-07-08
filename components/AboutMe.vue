@@ -7,7 +7,7 @@ const currHex = computed(() => {
 </script>
 
 <template>
-  <SectionHeading>About Me</SectionHeading>
+  <SectionHeading id="about-me">About Me</SectionHeading>
   <SectionContainer>
     <div class="w-100% flex flex-col md:flex-row md:gap-16">
       <div class="md:w-1/2 text-base">
