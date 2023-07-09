@@ -81,7 +81,7 @@ h6 {
 
 .cool-hover {
   transition: all 0.1s ease;
-  @apply hover:scale-110% shadow-2xl;
+  @apply sm:hover:scale-110% shadow-2xl;
 }
 
 .v-text-base {
