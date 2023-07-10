@@ -52,6 +52,7 @@ body {
   font-family: "Rubik", sans-serif;
   background-color: black;
   color: white;
+  overflow-x: hidden;
 }
 h1,
 h2,

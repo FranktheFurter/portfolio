@@ -2,13 +2,22 @@ import { ref, computed } from "vue"
 
 const presets = [
   {
+    highlightColor: 2144970,
+    midtoneColor: 9729384,
+    lowlightColor: 12633084,
+    baseColor: 9702162,
+    blurFactor: 0.6401590012235884,
+    speed: 0.7989595905894243,
+    zoom: 0.7943671305049834,
+  },
+  {
     highlightColor: 3844822,
     midtoneColor: 7920127,
     lowlightColor: 11778447,
     baseColor: 14123107,
-    blurFactor: 0.8588885962267805,
-    speed: 0.852960573822455,
-    zoom: 0.7627364321364398,
+    blurFactor: 0.6401590012235884,
+    speed: 0.7989595905894243,
+    zoom: 0.7943671305049834,
   },
   {
     highlightColor: 15493790,
@@ -19,15 +28,7 @@ const presets = [
     speed: 2.951984071283417,
     zoom: 0.771712571706178,
   },
-  {
-    highlightColor: 2144970,
-    midtoneColor: 9729384,
-    lowlightColor: 12633084,
-    baseColor: 9702162,
-    blurFactor: 0.6401590012235884,
-    speed: 0.7989595905894243,
-    zoom: 0.7943671305049834,
-  },
+
   {
     highlightColor: 7643069,
     midtoneColor: 1703893,
