@@ -1,5 +1,12 @@
 <script lang="ts" setup>
 const { activePreset, randomizePreset, switchPreset } = useVantaEffect()
+
+const scrollToElement = (elementId: string) => {
+  const element = document.getElementById(elementId)
+  if (element) {
+    element.scrollIntoView({ behavior: "smooth" })
+  }
+}
 </script>
 
 <template>
@@ -37,21 +44,24 @@ const { activePreset, randomizePreset, switchPreset } = useVantaEffect()
           <div class="h-2 w-16 v-bg-high" />
         </div>
         <div class="text-xl flex justify-center gap-8 opacity-80 pt-8">
-          <a
+          <div
             class="bg-white/10 cool-hover shadow p-1 md:p-4 rounded-xl"
-            href="#about-me"
-            >About Me</a
+            @click="scrollToElement('about-me')"
           >
-          <a
+            About Me
+          </div>
+          <div
             class="bg-white/10 cool-hover shadow p-1 md:p-4 rounded-xl"
-            href="#projects"
-            >Projects</a
+            @click="scrollToElement('projects')"
           >
-          <a
+            Projects
+          </div>
+          <div
             class="bg-white/10 cool-hover shadow p-1 md:p-4 rounded-xl"
-            href="#contact"
-            >Contact</a
+            @click="scrollToElement('contact')"
           >
+            Contact
+          </div>
         </div>
       </div>
     </div>
