@@ -1,66 +1,48 @@
 <script lang="ts" setup>
-import { ref } from "vue"
-
 const email = ref("")
+const subject = ref("")
 const message = ref("")
-
-const submitForm = async () => {
-  const response = await fetch("API_URL", {
-    // replace with your server side script url
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({ email: email.value, message: message.value }),
-  })
-
-  if (!response.ok) {
-    alert("There was an error. Please try again.")
-  } else {
-    email.value = ""
-    message.value = ""
-    alert("Your message has been sent successfully!")
-  }
-}
 </script>
 
 <template>
   <SectionHeading id="contact">Contact</SectionHeading>
   <SectionContainer>
-    <form class="glass" @submit.prevent="submitForm">
-      <div class="py-2">
-        <label for="email">Email:</label><br />
-        <input id="email" v-model="email" type="email" required /><br />
-      </div>
+    <div class="py-2 mx-auto">
+      <form action="#" class="space-y-8">
+        <input
+          id="email"
+          v-model="email"
+          type="email"
+          class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+          placeholder="email"
+          required
+        />
 
-      <div class="py-2">
-        <label for="message">Message:</label><br />
-        <textarea id="message" v-model="message" required></textarea><br />
-      </div>
+        <input
+          id="subject"
+          v-model="subject"
+          type="text"
+          class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+          placeholder="How can I help you"
+          required
+        />
 
-      <input type="submit" value="Submit" />
-    </form>
+        <textarea
+          id="message"
+          v-model="message"
+          rows="6"
+          class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+          placeholder="Message"
+        ></textarea>
+        <button
+          type="submit"
+          class="py-3 px-5 text-sm font-medium text-center rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+        >
+          Send message
+        </button>
+      </form>
+    </div>
   </SectionContainer>
 </template>
 
-<style scoped>
-form {
-  @apply p-6;
-}
-
-label {
-  @apply text-lg;
-}
-
-input,
-textarea {
-  @apply px-2 py-1 rounded-md w-100% m-0 p-0 bg-white/80 text-black/80;
-  box-sizing: border-box;
-}
-textarea {
-  min-height: 12rem;
-}
-
-input[type="submit"] {
-}
-</style>
+<style scoped></style>
